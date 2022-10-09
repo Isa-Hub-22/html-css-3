@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/*------------HEADER-----------*/
+header{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;  
+}
+
+.header__menu{
+    position: absolute;
+    font-family: sans-serif;
+    left: 15%;
+    
+}
+.header__crumb{
+    width: 50%;   
+}
+
+.menu__inline{
+      text-align: center;
+}
+.menu__inline li{
+    display: inline;
+    font-size: x-small;
+    margin-right: 10px;
+}
+.menu__block{
+    font-size: small;   
+}
+.menu__block li:last-child{
+    color: red;
+}
+h1{
+    text-transform: uppercase;
+    font-size: x-large;
+    text-align: center;
+}
+.header__crumb .menu__inline li{
+    color: lightgrey;
+}
+.header__crumb, .menu__inline li:last-child{
+    color: black;
+}
+
+.header__form{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    }
+input{
+    border: none;
+    font-size: xx-small;
+}
+/*---------MAIN--------------*/
+
+.main{
+    display: flex;
+    width: 100%;  
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.main__section{
+    font-size: xx-small;
+    text-align: center; 
+    color: grey;  
+    font-weight: bold;
+}
+.main__section h2{
+    font-size: xx-small;
+    font-weight: normal;
+    padding-bottom: 3px;
+    color: grey;
+}
+
+img{
+    width: 270px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 8px;
+  }
+  .main__article{
+    position: relative;
+    color: grey;
+  }
+  .section__aside_etiqueta{
+    background-color: azure;
+    color: black;
+    width: 20px;
+    position: absolute;
+    top: 273px;
+    left: 10px;
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: bold;
+} 
+.section__aside_etiqueta-join{
+    background-color: azure;
+    color: black;
+    width: 40px;
+    position: absolute;
+    top: 273px;
+    left: 300px;
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: bold;
+} 
+
+.main__article-last{
+    visibility: hidden;
+    align-items: center;
+}
+
+
+/*---------MAIN  ASIDE--------*/
+.aside{
+    text-align: center;
+    margin: 100px 300px 30px 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-size: small;
+}
+.aside__p{
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.aside__p::after{
+    content: "*";
+}
+
+.aside__form{
+    width: 25%;
+    text-align: center;
+    border: 0px solid;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+/*-------MAIN CONTACTO------*/
+.section{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    font-family: sans-serif;
+    font-size: x-small;
+}
+.section__menu{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.section__menu li:nth-child(2){
+    color: green;
+}
+/*--------FOOTER---------*/
+.footer{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 60px;
+    justify-content: center;
+    gap: 65px;
+    font-size: 7px;
+    line-height: 15px;
+    color: grey; 
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.footer h4{
+    padding-bottom: 15px;
+}
+.footer__menu{
+    list-style-type: none;
+}
+.footer img{
+    width: 10px;
+    height: 10px;
+    vertical-align: text-top;
+    margin-right: 5px;
+    object-fit: scale-down;
+ 
+}
+/*--------APLICACIONES---------*/
+.div{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 120px;
+    font-size: xx-small;
+    color: grey; 
+}
+.div h4{
+    padding-bottom: 15px;
+
+}
+.div__menu{
+    list-style-type: none;
+    text-align: center;
+}
+.div__h4--sec{
+    text-align: center;
+}
+.div__h4--terc{
+    text-align: right;
+}
+.div__menu li:last-child{
+    font-weight: bold;
+
+}
